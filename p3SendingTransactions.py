@@ -7,9 +7,9 @@ print(web3_var.isConnected())
 print(web3_var.eth.block_number)
 # Now inorder to make transictions we need both accounts 
 
-account_1 = "0x5EA5d2abf27a955127afCc4c3666b2FF6C422b1c"
-account_2 = "0xa19e09C7bE0F2D33ef475f111ca0f8C9A57D736b"
-private_Key_of_account1 = "0948f122b84326b058184c826bcbc9fe0e110d43cc3b2b51d84cdf53f6418360"
+account_1 = "0x5EA5d2abf27a955127afCc4c3666b2FF6C421c"
+account_2 = "0xa19e09C7bE0F2D33ef475f111ca0f8C9A57D6b"
+private_Key_of_account1 = "0948f122b84326b058184c826bcbc9fe0e110d43cc3b2b51d84cdf53f64360"
 #Get the nonce 
 nonce = web3_var.eth.getTransactionCount(account_1)
 #  Build a transaction 
