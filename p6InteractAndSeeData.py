@@ -4,8 +4,8 @@
 from web3 import Web3 
 import json
 import time as time
-
-infura_url = 'https://mainnet.infura.io/v3/40645766d72a44218675029469137f90'
+#some changes are made to not get compromised
+infura_url = 'https://mainnet.infura.io/v3/40645766d72a442186750294691'
 web3 = Web3 (Web3.HTTPProvider(infura_url))
 print(web3.isConnected())
 print(web3.eth.blockNumber)
@@ -26,7 +26,7 @@ for i in range (0 , 20):
 
 # getting data from a specific block by its transaction
 
-hash = '0xe0ccd7ef2245d3ca7d73d43fa3ab1994568c407020f2f1815349966b1d5a18e7'
+hash = '0xe0ccd7ef2245d3ca7d73d43fa3ab1994568c407020f2f1815349966b1d5a1'
 print(web3.eth.getTransactionByBlock(hash , 1))
 
 
